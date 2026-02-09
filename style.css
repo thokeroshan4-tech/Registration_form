@@ -1,6 +1,3 @@
-/* External CSS - Global Styles */
-
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +11,6 @@ body {
     padding: 20px;
 }
 
-/* Container Styles */
 .main-container {
     max-width: 600px;
     margin: 0 auto;
@@ -24,7 +20,6 @@ body {
     overflow: hidden;
 }
 
-/* Header Panel */
 .form-header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -43,12 +38,10 @@ body {
     opacity: 0.9;
 }
 
-/* Form Body Panel */
 .form-body {
     padding: 40px;
 }
 
-/* Form Group Styles */
 .form-group {
     margin-bottom: 25px;
 }
@@ -61,7 +54,6 @@ body {
     font-size: 0.95rem;
 }
 
-/* Input Field Styles */
 .form-control {
     width: 100%;
     padding: 12px 15px;
@@ -79,7 +71,6 @@ body {
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
-/* Select Dropdown */
 .form-select {
     width: 100%;
     padding: 12px 15px;
@@ -97,7 +88,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Radio and Checkbox Styles */
 .radio-group,
 .checkbox-group {
     display: flex;
@@ -119,7 +109,6 @@ body {
     cursor: pointer;
 }
 
-/* Button Styles */
 .btn-primary {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -160,8 +149,6 @@ body {
 .btn-secondary:hover {
     background-color: #5a6268;
 }
-
-/* Error Messages */
 .error-message {
     color: #dc3545;
     font-size: 0.875rem;
@@ -169,7 +156,6 @@ body {
     display: none;
 }
 
-/* Success Panel */
 .success-panel {
     background-color: #d4edda;
     border: 2px solid #c3e6cb;
@@ -180,7 +166,6 @@ body {
     display: none;
 }
 
-/* Info Panel */
 .info-panel {
     background-color: #d1ecf1;
     border: 2px solid #bee5eb;
@@ -190,7 +175,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Footer */
 .form-footer {
     background-color: #f8f9fa;
     padding: 20px;
@@ -200,7 +184,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* Responsive Design */
 @media (max-width: 576px) {
     .form-body {
         padding: 20px;
